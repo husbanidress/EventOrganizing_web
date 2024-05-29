@@ -1,0 +1,175 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),url("image_9.png");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+    .home .content {
+        max-width: 60rem;
+        color: #fff;
+    }
+
+        .home .content h3 {
+            font-size: 4rem;
+            text-transform: uppercase;
+            padding-left: 2rem;
+            padding-top: 2rem;
+        }
+
+        .home .content p {
+            font-weight: lighter;
+            font-size: 2rem;
+            line-height: 1.8;
+            padding: 1rem 2rem;
+            color: #ccc;
+        }
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 4rem;
+    font-size: 1.7rem;
+    border-radius: .2rem;
+    background: #666;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+    .btn:hover {
+        background-color: rgb(63, 151, 185);
+    }
+
+
+
+
+/* header stylling */
+
+header {
+    
+    background-color: rgb(63, 151, 185);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+/* logo Stylling */
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    .logo span {
+        color: rgb(45, 61, 155);
+        font-size: 30px;
+    }
+
+/* list items Stylling */
+
+nav ul {
+    display: flex;
+   
+}
+
+    nav ul li {
+        list-style: none;
+    }
+
+        nav ul li a {
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            padding: 0px 20px;
+        }
+
+            nav ul li a:hover {
+                color: rgb(55, 108, 129);
+                transition: all .2s ease;
+            }
+
+
+/* login btn Stylling */
+.btn {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10vh;
+}
+
+.btn-1 {
+    background-color: rgb(55, 108, 129);
+}
+
+    .btn-1:hover {
+        background-color: transparent;
+        border: 2px solid rgb(55, 108, 129);
+    }
+
+
+/* footer section stylling */
+
+.footer {
+    background: #111;
+}
+
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 1rem;
+    }
+
+        .footer .box-container .box h3 {
+            font-size: 2.5rem;
+            padding: 1rem 0;
+            color: #fff;
+        }
+
+        .footer .box-container .box a {
+            font-size: 1.5rem;
+            padding: 1rem 0;
+            color: #eee;
+            display: block;
+        }
+
+            .footer .box-container .box a i {
+                padding-right: .5rem;
+                color: #163ba1;
+            }
+
+            .footer .box-container .box a:hover i {
+                padding-right: 1.5rem;
+                color: #fff;
+            }
+
+    .footer .credit {
+        text-align: center;
+        border-top: .1rem solid #fff;
+        color: #fff;
+        padding: 2rem;
+        padding-top: 2.5rem;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+        .footer .credit span {
+            color: #163ba1;
+        }
